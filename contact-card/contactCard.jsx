@@ -6,6 +6,8 @@ class ContactCard extends Component {
     }
 
     render() {
-        return <h1>H</h1>
+        return <h1>Contact Card</h1>
     }
 }
+
+export default ContactCard;
