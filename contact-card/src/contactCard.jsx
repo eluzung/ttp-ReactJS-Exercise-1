@@ -12,7 +12,17 @@ class ContactCard extends Component {
     }
 
     render() {
-        return <h1>Contact Card</h1>
+        return (
+            <div>
+                <div>
+                    <h1>Contact Card</h1>
+                    <h2>Name: {this.state.ContactName}</h2>
+                    <h3>Phone number: {this.state.phoneNumber}</h3>
+                    <h3>Work number: {this.state.workPhone}</h3>
+                    <h3>Email: {this.state.email}</h3>
+                </div>
+            </div>
+        )
     }
 }
 
